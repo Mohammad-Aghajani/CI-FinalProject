@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: pocketsphinx
+Version: 0.0.9
+Summary: Python interface to CMU SphinxBase and PocketSphinx libraries
+Home-page: https://github.com/cmusphinx/pocketsphinx-python
+Author: Dmitry Prazdnichnov
+Author-email: dp@bambucha.org
+License: BSD
+Download-URL: https://pypi.python.org/pypi/pocketsphinx
+Description-Content-Type: UNKNOWN
+Description: 
+        Supported Platforms
+        -------------------
+        
+        - Windows 7
+        - Windows 8
+        - Ubuntu 14.10
+        
+        Dependencies
+        ------------
+        
+        * `Python <https://www.python.org/downloads/>`_
+        * `Swig <http://www.swig.org/download.html>`_
+        * `Microsoft Visual C++ Compiler for Python 2.7 <http://aka.ms/vcpython27>`_
+        
+        Install
+        -------
+        
+        .. code:: bash
+        
+            pip install pocketsphinx
+        
+        or
+        --
+        
+        .. code:: bash
+        
+            git clone https://github.com/bambocher/pocketsphinx-python.git
+            cd pocketsphinx-python
+            python setup.py install
+        
+        Import
+        ------
+        
+        .. code:: python
+        
+        from sphinxbase.sphinxbase import Config
+        from pocketsphinx.pocketsphinx import Decoder
+        
+Keywords: sphinxbase,pocketsphinx
+Platform: Windows
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: C
